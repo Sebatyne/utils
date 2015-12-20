@@ -7,6 +7,8 @@ I upload it here first to easily find whenever I will need them again, but also 
 # Scripts
 
    * __no_ip.sh__ : this script will send you an email containing the public IP of the device on which it is run. Very useful if you have a server home (or a simple device as a raspberry pi), and don't want to suscribe to a no-ip service. Installation is very simple : adds a cron rule. This interesting thing in this script is that it will send you an email *only* if your address has changed.
+   * __do_nat.sh__ : bash script to set up a NAT functionnality between 2 given network interfaces.
+   * __ridof_cursor.py__ : move the cursor in a X window manager to remove it from sight, in the respect of the tiling window managers' philosophy.
 
 # Configs
 
