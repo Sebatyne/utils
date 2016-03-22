@@ -14,3 +14,4 @@ I upload it here first to easily find whenever I will need them again, but also 
 
    * __apache_webdav_cors.conf__ and __nginx_webdav_cors.conf__ : config files for apache and nginx respectively, which allow to use CORS on webdav shares. They could be improved by using a variable saving the referer name, to allow CORS on every domain, and not only one specific hardcoded one.
    * __etc_network_interfaces__ and __wpa_supplicant.conf__ : allow a device to connect to a WEP Wifi network on boot. Used for my raspberry pi. The config to connect to a WPA network is easy to find, but it isn't for a WEP network.
+   * __Jupyter Notebook__ : runs a Jupyter Notebook (http://jupyter.readthedocs.org/en/latest/index.html) instance behind an apache reverse proxy. Thanks to the proxy, the notebook is not directly accessible from the outside, and is protected by SSL + Basic Auth. Up to you to add new Jupyter kernels and develop in any language from any device.
